@@ -1,0 +1,500 @@
+{
+  "code": 200,
+  "message": "OK",
+  "profiling": null,
+  "count": 6,
+  "limited_count": false,
+  "skip": 0,
+  "limit": 50,
+  "next_page": null,
+  "previous_page": null,
+  "additional_meta": [],
+  "data": [
+    {
+      "_id": "5825c85320fe9b006308e41d",
+      "ean": "5896584",
+      "name": null,
+      "holder": {
+        "_id": "5543677f37c6b65f008b46e4",
+        "name": "Example account",
+        "username": "someone@example.com"
+      },
+      "root": {
+        "_id": "577fdd960c8a335c008b466c",
+        "holder": {
+          "_id": "577fd0170c8a335c008b45fe",
+          "name": "Rob Harvey Utility Company",
+          "entity_type": "utility_provider"
+        }
+      },
+      "assigner": {
+        "_id": "577fd0170c8a335c008b45fe",
+        "name": "Rob Harvey Utility Company",
+        "username": "RobHarveyUtilityCompany-utility@metry.io",
+        "manager": {
+          "_id": null
+        }
+      },
+      "created": "2016-11-11T13:32:03+0000",
+      "children": [],
+      "address": "Gränsvägen 12B",
+      "timezone": "Etc/GMT-1",
+      "control_level": "shared",
+      "billing_category": "owned_meter_consumption",
+      "generation": 1,
+      "tags": [],
+      "box": "active",
+      "revoked": false,
+      "metrics": ["energy"],
+      "type": "heat",
+      "consumption_stats": {
+        "energy": {
+          "month": {
+            "count": 105,
+            "sum": 6171325,
+            "max": 173000,
+            "last": 202109,
+            "min": 880,
+            "first": 201301
+          },
+          "hour": {
+            "first": null,
+            "last": null,
+            "sum": null,
+            "max": null,
+            "min": null,
+            "count": 0
+          },
+          "day": {
+            "first": null,
+            "last": null,
+            "sum": null,
+            "max": null,
+            "min": null,
+            "count": 0
+          }
+        }
+      },
+      "cost_stats": {},
+      "readings_stats": null,
+      "has_active_complaints": false,
+      "representation": null,
+      "open_channel_ids": null,
+      "on_hold": null,
+      "last_sla_comment": null,
+      "location": null,
+      "operations_provider": null,
+      "meta_data": {},
+      "collection_window_start": 0,
+      "collection_window": 5,
+      "collection_window_end": 5,
+      "memo": null,
+      "active_box_tree_paths": []
+    },
+    {
+      "_id": "5825c76920fe9b006308e412",
+      "ean": "735999999564879216",
+      "name": null,
+      "holder": {
+        "_id": "5543677f37c6b65f008b46e4",
+        "name": "Example account",
+        "username": "someone@example.com"
+      },
+      "root": {
+        "_id": "5824790e3d214b006271c510",
+        "holder": {
+          "_id": "577fd0170c8a335c008b45fe",
+          "name": "Rob Harvey Utility Company",
+          "entity_type": "utility_provider"
+        }
+      },
+      "assigner": {
+        "_id": "577fd0170c8a335c008b45fe",
+        "name": "Rob Harvey Utility Company",
+        "username": "RobHarveyUtilityCompany-utility@metry.io",
+        "manager": {
+          "_id": null
+        }
+      },
+      "created": "2016-11-11T13:28:09+0000",
+      "children": [],
+      "address": "Kungsgatan 2",
+      "timezone": "Etc/GMT-1",
+      "control_level": "shared",
+      "billing_category": "owned_meter_consumption",
+      "generation": 1,
+      "tags": [],
+      "box": "active",
+      "revoked": false,
+      "metrics": ["energy"],
+      "type": "electricity",
+      "consumption_stats": {
+        "energy": {
+          "hour": {
+            "count": 67919,
+            "sum": 808926.4160000009,
+            "max": 34.3,
+            "last": 2021093023,
+            "min": 0,
+            "first": 2014010101
+          },
+          "day": {
+            "count": 2829,
+            "sum": 808699.716,
+            "max": 689,
+            "last": 20210930,
+            "min": 140.6,
+            "first": 20140102
+          },
+          "month": {
+            "count": 92,
+            "sum": 801461.528,
+            "max": 14355.016,
+            "last": 202109,
+            "min": 6013.931999999999,
+            "first": 201402
+          }
+        }
+      },
+      "cost_stats": {},
+      "readings_stats": null,
+      "has_active_complaints": false,
+      "representation": null,
+      "open_channel_ids": null,
+      "on_hold": null,
+      "last_sla_comment": null,
+      "location": null,
+      "operations_provider": null,
+      "meta_data": {},
+      "collection_window_start": 0,
+      "collection_window": 5,
+      "collection_window_end": 5,
+      "memo": null,
+      "active_box_tree_paths": []
+    },
+    {
+      "_id": "5825c6f6de22ae00632e86f3",
+      "ean": "659842",
+      "name": null,
+      "holder": {
+        "_id": "5543677f37c6b65f008b46e4",
+        "name": "Example account",
+        "username": "someone@example.com"
+      },
+      "root": {
+        "_id": "5824790e3d214b006271c515",
+        "holder": {
+          "_id": "577fd0170c8a335c008b45fe",
+          "name": "Rob Harvey Utility Company",
+          "entity_type": "utility_provider"
+        }
+      },
+      "assigner": {
+        "_id": "577fd0170c8a335c008b45fe",
+        "name": "Rob Harvey Utility Company",
+        "username": "RobHarveyUtilityCompany-utility@metry.io",
+        "manager": {
+          "_id": null
+        }
+      },
+      "created": "2016-11-11T13:26:14+0000",
+      "children": [],
+      "address": "Kungsgatan 2",
+      "timezone": "Etc/GMT-1",
+      "control_level": "shared",
+      "billing_category": "owned_meter_consumption",
+      "generation": 1,
+      "tags": [],
+      "box": "active",
+      "revoked": false,
+      "metrics": ["energy"],
+      "type": "heat",
+      "consumption_stats": {
+        "energy": {
+          "hour": {
+            "count": 67919,
+            "first": 2014010101,
+            "last": 2021093023,
+            "max": 930,
+            "min": 0,
+            "sum": 23844340
+          },
+          "day": {
+            "count": 2829,
+            "first": 20140102,
+            "last": 20210930,
+            "max": 18920,
+            "min": 1180,
+            "sum": 23833890
+          },
+          "month": {
+            "count": 99,
+            "first": 201402,
+            "last": 202207,
+            "max": 387920,
+            "min": 48350,
+            "sum": 24734340
+          }
+        }
+      },
+      "cost_stats": {},
+      "readings_stats": null,
+      "has_active_complaints": false,
+      "representation": null,
+      "open_channel_ids": null,
+      "on_hold": null,
+      "last_sla_comment": null,
+      "location": null,
+      "operations_provider": null,
+      "meta_data": {},
+      "collection_window_start": 0,
+      "collection_window": 5,
+      "collection_window_end": 5,
+      "memo": null,
+      "active_box_tree_paths": []
+    },
+    {
+      "_id": "5825c85d22c8aa00606b9dd5",
+      "ean": "1200004",
+      "name": null,
+      "holder": {
+        "_id": "5543677f37c6b65f008b46e4",
+        "name": "Example account",
+        "username": "someone@example.com"
+      },
+      "root": {
+        "_id": "577fdd960c8a335c008b466f",
+        "holder": {
+          "_id": "577fd0170c8a335c008b45fe",
+          "name": "Rob Harvey Utility Company",
+          "entity_type": "utility_provider"
+        }
+      },
+      "assigner": {
+        "_id": "577fd0170c8a335c008b45fe",
+        "name": "Rob Harvey Utility Company",
+        "username": "RobHarveyUtilityCompany-utility@metry.io",
+        "manager": {
+          "_id": null
+        }
+      },
+      "created": "2016-11-11T13:32:13+0000",
+      "children": [],
+      "address": "Gränsvägen 12B",
+      "timezone": "Etc/GMT-1",
+      "control_level": "shared",
+      "billing_category": "owned_meter_consumption",
+      "generation": 1,
+      "tags": [],
+      "box": "active",
+      "revoked": false,
+      "metrics": ["energy"],
+      "type": "cooling",
+      "consumption_stats": {
+        "energy": {
+          "month": {
+            "count": 73,
+            "sum": 1905580,
+            "max": 92560,
+            "last": 202101,
+            "min": 9730,
+            "first": 201501
+          },
+          "hour": {
+            "first": null,
+            "last": null,
+            "sum": null,
+            "max": null,
+            "min": null,
+            "count": 0
+          },
+          "day": {
+            "first": null,
+            "last": null,
+            "sum": null,
+            "max": null,
+            "min": null,
+            "count": 0
+          }
+        }
+      },
+      "cost_stats": {},
+      "readings_stats": null,
+      "has_active_complaints": false,
+      "representation": null,
+      "open_channel_ids": null,
+      "on_hold": null,
+      "last_sla_comment": null,
+      "location": null,
+      "operations_provider": null,
+      "meta_data": {},
+      "collection_window_start": 0,
+      "collection_window": 5,
+      "collection_window_end": 5,
+      "memo": null,
+      "active_box_tree_paths": []
+    },
+    {
+      "_id": "5825c85920fe9b0061547253",
+      "ean": "735999666123123123",
+      "name": null,
+      "holder": {
+        "_id": "5543677f37c6b65f008b46e4",
+        "name": "Example account",
+        "username": "someone@example.com"
+      },
+      "root": {
+        "_id": "577fdd960c8a335c008b4669",
+        "holder": {
+          "_id": "577fd0170c8a335c008b45fe",
+          "name": "Rob Harvey Utility Company",
+          "entity_type": "utility_provider"
+        }
+      },
+      "assigner": {
+        "_id": "577fd0170c8a335c008b45fe",
+        "name": "Rob Harvey Utility Company",
+        "username": "RobHarveyUtilityCompany-utility@metry.io",
+        "manager": {
+          "_id": null
+        }
+      },
+      "created": "2016-11-11T13:32:09+0000",
+      "children": [],
+      "address": "Gränsvägen 12B",
+      "timezone": "Etc/GMT-1",
+      "control_level": "shared",
+      "billing_category": "owned_meter_consumption",
+      "generation": 1,
+      "tags": [],
+      "box": "active",
+      "revoked": false,
+      "metrics": ["energy"],
+      "type": "electricity",
+      "consumption_stats": {
+        "energy": {
+          "month": {
+            "count": 93,
+            "sum": 281434.5200000001,
+            "max": 6488.2,
+            "last": 202109,
+            "min": 1406.28,
+            "first": 201401
+          },
+          "hour": {
+            "first": null,
+            "last": null,
+            "sum": null,
+            "max": null,
+            "min": null,
+            "count": 0
+          },
+          "day": {
+            "first": null,
+            "last": null,
+            "sum": null,
+            "max": null,
+            "min": null,
+            "count": 0
+          }
+        }
+      },
+      "cost_stats": {},
+      "readings_stats": null,
+      "has_active_complaints": false,
+      "representation": null,
+      "open_channel_ids": null,
+      "on_hold": null,
+      "last_sla_comment": null,
+      "location": null,
+      "operations_provider": null,
+      "meta_data": {},
+      "collection_window_start": 0,
+      "collection_window": 5,
+      "collection_window_end": 5,
+      "memo": null,
+      "active_box_tree_paths": []
+    },
+    {
+      "_id": "5825c84b22c8aa00623d65a5",
+      "ean": "6934363",
+      "name": null,
+      "holder": {
+        "_id": "5543677f37c6b65f008b46e4",
+        "name": "Example account",
+        "username": "someone@example.com"
+      },
+      "root": {
+        "_id": "577fdd960c8a335c008b4672",
+        "holder": {
+          "_id": "577fd0170c8a335c008b45fe",
+          "name": "Rob Harvey Utility Company",
+          "entity_type": "utility_provider"
+        }
+      },
+      "assigner": {
+        "_id": "577fd0170c8a335c008b45fe",
+        "name": "Rob Harvey Utility Company",
+        "username": "RobHarveyUtilityCompany-utility@metry.io",
+        "manager": {
+          "_id": null
+        }
+      },
+      "created": "2016-11-11T13:31:55+0000",
+      "children": [],
+      "address": "Gränsvägen 12B",
+      "timezone": "Etc/GMT-1",
+      "control_level": "shared",
+      "billing_category": "owned_meter_consumption",
+      "generation": 1,
+      "tags": [],
+      "box": "active",
+      "revoked": false,
+      "metrics": ["energy"],
+      "type": "gas",
+      "consumption_stats": {
+        "energy": {
+          "month": {
+            "count": 70,
+            "first": 201501,
+            "last": 202011,
+            "max": 8890.65,
+            "min": 104.57,
+            "sum": 113684.59000000008
+          },
+          "hour": {
+            "first": null,
+            "last": null,
+            "sum": null,
+            "max": null,
+            "min": null,
+            "count": 0
+          },
+          "day": {
+            "first": null,
+            "last": null,
+            "sum": null,
+            "max": null,
+            "min": null,
+            "count": 0
+          }
+        }
+      },
+      "cost_stats": {},
+      "readings_stats": null,
+      "has_active_complaints": false,
+      "representation": null,
+      "open_channel_ids": null,
+      "on_hold": null,
+      "last_sla_comment": null,
+      "location": null,
+      "operations_provider": null,
+      "meta_data": {},
+      "collection_window_start": 0,
+      "collection_window": 5,
+      "collection_window_end": 5,
+      "memo": null,
+      "active_box_tree_paths": []
+    }
+  ]
+}
