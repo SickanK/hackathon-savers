@@ -15,6 +15,6 @@ model User {
   name     String
   email    String @unique
   password String
-  numbers  Int[]
+  number   Int
   limit    Int?
 }
