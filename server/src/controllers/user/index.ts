@@ -48,13 +48,13 @@ const updateLimit: RequestHandler = async (req, res) => {
 
 const registerUser: RequestHandler = async (req, res) => {
   try {
-    const { email, name, password, number } = req.body;
+    const { email, password, number } = req.body;
 
-    if (!email || !password || !name) {
+    if (!email || !password || !number) {
       throw new Error("Not all data provided");
     }
 
-    const user = await CreateUser({ email, name, password, number });
+    const user = await CreateUser({ email, password, number });
 
     res.status(201).send(user);
   } catch (error) {

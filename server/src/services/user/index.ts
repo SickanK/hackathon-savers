@@ -29,7 +29,6 @@ const CreateUser = async (user: Prisma.UserCreateInput): Promise<User> => {
   const createdUser = await prisma.user.create({
     data: {
       email: user.email.toLowerCase(),
-      name: user.email,
       password,
       number: user.number,
     },
